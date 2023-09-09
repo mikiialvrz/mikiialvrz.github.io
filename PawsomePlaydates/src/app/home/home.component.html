@@ -5,35 +5,45 @@
 <div class="main-container">
   <mat-card class="top-container">
       <mat-card class="buttons">
-        <a class="but" mat-stroked-button href="/schedule" >My Schedule</a>
-        <a class="but" mat-stroked-button href="/prices" >Price Sheet</a>
-        <a class="but2" mat-stroked-button href="/about" >About Me</a>
+        <a class="but" mat-stroked-button onClick="document.getElementById('about').scrollIntoView();" >About Me</a>
+        <a class="but" mat-stroked-button onClick="document.getElementById('price').scrollIntoView();" >Price Sheet</a>
+        <a class="but" mat-stroked-button onClick="document.getElementById('extra').scrollIntoView();" >Extra Info</a>
+        <a class="but2" mat-stroked-button onClick="document.getElementById('schedule').scrollIntoView();" >My Schedule</a>
       </mat-card>
       
-      <mat-card class="content">
-        <mat-card-header>
-          <mat-card-title>My Schedule</mat-card-title>
-        </mat-card-header>
-        <mat-card-content>
-          <p>This is some featured content for your homepage.</p>
-        </mat-card-content>
-      </mat-card>
-    
-      <mat-card class="content">
-        <mat-card-header>
-          <mat-card-title>Price Sheet</mat-card-title>
-        </mat-card-header>
-        <mat-card-content>
-          <p>Stay tuned for the latest updates and news.</p>
-        </mat-card-content>
-      </mat-card>
-
-      <mat-card class="content">
+      <mat-card id="about" class="content">
         <mat-card-header>
           <mat-card-title>About Me</mat-card-title>
         </mat-card-header>
         <mat-card-content>
-          <p>Stay tuned for the latest updates and news.</p>
+          <p>Stay tuned for the latest updates</p>
+        </mat-card-content>
+      </mat-card>
+
+      <mat-card id="price" class="content">
+        <mat-card-header>
+          <mat-card-title>Price Sheet</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <p>Stay tuned for the latest updates</p>
+        </mat-card-content>
+      </mat-card>
+
+      <mat-card id="extra" class="content">
+        <mat-card-header>
+          <mat-card-title>Extra Info</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <p>Stay tuned for the latest updates</p>
+        </mat-card-content>
+      </mat-card>
+
+      <mat-card id="schedule" class="content">
+        <mat-card-header>
+          <mat-card-title>My Schedule</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <p>Stay tuned for the latest updates</p>
         </mat-card-content>
       </mat-card>
 
