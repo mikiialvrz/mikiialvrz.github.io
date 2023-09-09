@@ -1,10 +1,24 @@
+.header {
+    background-color: rgb(91, 214, 121);
+}
 .title {
     flex: auto;
     text-align: center;
     text-size-adjust: auto;
+    color: rgb(236,152,185);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.main-container {
+    background-color: rgb(91, 214, 121);
+}
+.top-container {
+    background-color: rgb(247,240,232);
+    text-align: center;
+    align-items: center;
 }
 .buttons {
-    width: 75%;
+    background-color: rgb(219, 210, 199);
+    width: 75vw;
     align-items: center;
     padding: 1%;
     margin-bottom: 3%;
@@ -12,18 +26,16 @@
 }
 .but {
     margin-bottom: 1%;
-    width: 50%;
+    width: 50vw;
+    height: 4.5vh;
+    background-color: rgb(236,152,185);
 }
 .but2 {
-    width: 50%;
-}
-.top-container {
-    text-align: center;
-    margin-left: 3%;
-    margin-right: 3%;
-    align-items: center;
+    width: 50vw;
+    height: 4.5vh;
+    background-color: rgb(236,152,185);
 }
 .content {
     margin-bottom: 3%;
-    width: 75%;
+    width: 75vw;
 }
