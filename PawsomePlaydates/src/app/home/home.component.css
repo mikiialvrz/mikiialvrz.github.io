@@ -1,6 +1,6 @@
 .header {
     background-color: rgb(91, 214, 121);
-    font-size: xx-large;
+    font-size: 2.3vw;
 }
 .title {
     flex: auto;
@@ -59,8 +59,13 @@ img {
     object-fit: cover;
 }
 .headshot {
-
+    width: 13vw;
+    height: auto;
 }
 .aboutMe {
     
+}
+.priceCardImg {
+    width: 40vw;
+    height: auto;
 }
