@@ -1,5 +1,6 @@
 .header {
     background-color: rgb(91, 214, 121);
+    font-size: xx-large;
 }
 .title {
     flex: auto;
@@ -19,6 +20,8 @@
 .buttons {
     background-color: rgb(219, 210, 199);
     width: 75vw;
+    border-width: 3px;
+    border-color: rgb(102, 102, 102);
     align-items: center;
     padding: 1%;
     margin-bottom: 3%;
@@ -35,7 +38,29 @@
     height: 4.5vh;
     background-color: rgb(236,152,185);
 }
+.cardTitle {
+    color: rgb(236,152,185);
+    font-size: x-large;
+}
 .content {
     margin-bottom: 3%;
     width: 75vw;
+    background-color: rgb(219, 210, 199);
+    border-width: 3px;
+    border-color: rgb(102, 102, 102);
+}
+.aboutMeCard {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1vw;
+}
+img {
+    object-fit: cover;
+}
+.headshot {
+
+}
+.aboutMe {
+    
 }
