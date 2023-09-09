@@ -1,7 +1,28 @@
 .title {
-    margin-left: 5%;
+    flex: auto;
+    text-align: center;
+    text-size-adjust: auto;
 }
-
-a {
-    margin-left: 4%;
+.buttons {
+    width: 75%;
+    align-items: center;
+    padding: 1%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+.but {
+    margin-bottom: 1%;
+    width: 50%;
+}
+.but2 {
+    width: 50%;
+}
+.top-container {
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    align-items: center;
+}
+.content {
+    margin-bottom: 3%;
 }
