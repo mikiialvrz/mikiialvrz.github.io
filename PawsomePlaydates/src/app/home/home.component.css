@@ -52,7 +52,7 @@
 .aboutMeCard {
     display: grid;
     align-items: center; 
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.3fr 1fr;
     column-gap: 1vw;
 }
 img {
@@ -62,8 +62,12 @@ img {
     width: 13vw;
     height: auto;
 }
+.welcomeText {
+    font-size: x-large;
+    font-weight: bold;
+}
 .aboutMe {
-    
+    font-size: large;
 }
 .priceCardImg {
     width: 40vw;
