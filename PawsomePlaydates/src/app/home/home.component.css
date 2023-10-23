@@ -6,6 +6,9 @@
     top: 0;
     z-index: 100;
 }
+.menuDropButton{
+    color: hotpink;
+}
 .menuDropdown{
     display: block;
     background-color: #CCCCFF;
