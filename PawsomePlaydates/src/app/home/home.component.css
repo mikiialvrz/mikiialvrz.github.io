@@ -10,7 +10,7 @@
     color: rgb(240, 120, 168);
 }
 .headerButton{
-
+    width: 50px;
 }
 .main-container {
     background-color: rgb(91, 214, 121);
@@ -43,12 +43,13 @@
 }
 .MenuButton{
     margin-bottom: 1%;
-    width: auto;
+    width: 10px;
     height: auto;
+    font-size: small;
     background-color: rgb(236,152,185);
 }
 .MenuButton2{
-    width: auto;
+    width: 10px;
     height: auto;
     background-color: rgb(236,152,185);
 }

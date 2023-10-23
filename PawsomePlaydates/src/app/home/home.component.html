@@ -1,33 +1,32 @@
-<mat-toolbar color="primary">
-  <button mat-icon-button class="headerButton" [matMenuTriggerFor]="menu">
+<mat-toolbar class="header">
+  <button mat-icon-button [matMenuTriggerFor]="menu" #menuTrigger="matMenuTrigger">
     <mat-icon>menu</mat-icon>
-    <mat-menu #menu="matMenu">
+  </button>
+    <mat-menu #menu="matMenu" [overlapTrigger]="false">
+    <span (mouseleave)="menuTrigger.closeMenu()">
       <a
       class="MenuButton"
       mat-stroked-button
-      onClick="document.getElementById('about').scrollIntoView();"
-      >About Me</a
-    >
+      onClick="document.getElementById('about').scrollIntoView();">
+      About Me</a>
     <a
       class="MenuButton"
       mat-stroked-button
-      onClick="document.getElementById('price').scrollIntoView();"
-      >Price Sheet</a
-    >
+      onClick="document.getElementById('price').scrollIntoView();">
+      Price Sheet</a>
     <a
       class="MenuButton"
       mat-stroked-button
-      onClick="document.getElementById('extra').scrollIntoView();"
-      >Extra Info</a
-    >
+      onClick="document.getElementById('extra').scrollIntoView();">
+      Extra Info</a>
     <a
       class="MenuButton2"
       mat-stroked-button
-      onClick="document.getElementById('schedule').scrollIntoView();"
-      >My Schedule</a
-    >
+      onClick="document.getElementById('schedule').scrollIntoView();">
+      My Schedule</a>
+    </span>
     </mat-menu>
-  </button>
+  
   <span class="title">Welcome to Miki's Pawsome Playdates</span>
 </mat-toolbar>
 
