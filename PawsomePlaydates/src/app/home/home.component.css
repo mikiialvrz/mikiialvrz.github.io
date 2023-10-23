@@ -1,7 +1,20 @@
-.header {
+.headerWMenu {
     background-color: #B7CBD0;
     font-size: 2.3vw;
     border-bottom: solid;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.menuDropdown{
+    display: block;
+    background-color: #CCCCFF;
+}
+.MenuButton{
+    margin-bottom: 1%;
+    border-bottom: solid;
+}
+.MenuButton2{
 }
 .title {
     flex: auto;
@@ -9,11 +22,10 @@
     text-size-adjust: auto;
     color: rgb(240, 120, 168);
 }
-.headerButton{
-    width: 50px;
-}
-.main-container {
-    background-color: rgb(91, 214, 121);
+.header{
+    background-color: #B7CBD0;
+    font-size: 2.3vw;
+    border-bottom: solid;
 }
 .top-container {
     background-image: linear-gradient(to bottom right, #CFF0CC, #CCCCFF);
@@ -39,18 +51,6 @@
 .but2 {
     width: 50vw;
     height: 4.5vh;
-    background-color: rgb(236,152,185);
-}
-.MenuButton{
-    margin-bottom: 1%;
-    width: 10px;
-    height: auto;
-    font-size: small;
-    background-color: rgb(236,152,185);
-}
-.MenuButton2{
-    width: 10px;
-    height: auto;
     background-color: rgb(236,152,185);
 }
 .cardTitle {
