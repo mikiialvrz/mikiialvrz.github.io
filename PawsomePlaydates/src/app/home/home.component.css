@@ -1,19 +1,19 @@
 .header {
-    background-color: rgb(91, 214, 121);
+    background-color: #B7CBD0;
     font-size: 2.3vw;
+    border-bottom: solid;
 }
 .title {
     flex: auto;
     text-align: center;
     text-size-adjust: auto;
-    color: rgb(236,152,185);
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: rgb(240, 120, 168);
 }
 .main-container {
     background-color: rgb(91, 214, 121);
 }
 .top-container {
-    background-color: rgb(247,240,232);
+    background-image: linear-gradient(to bottom right, #CFF0CC, #CCCCFF);
     text-align: center;
     align-items: center;
 }

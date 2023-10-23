@@ -7,4 +7,4 @@ Thank you!
 
 
 ### Dev notes
-To build the project for github : ```ng build --output-path docs --base-href https://mikiialvrz.github.io/mikiialvrz.github.io```
+To build the project for github on macbook : ```ng build --output-path /Users/evandyson/Desktop/"School files"/mikiialvrz.github.io/docs --base-href https://mikiialvrz.github.io/mikiialvrz.github.io```
