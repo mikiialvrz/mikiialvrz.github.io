@@ -9,6 +9,9 @@
     text-size-adjust: auto;
     color: rgb(240, 120, 168);
 }
+.headerButton{
+
+}
 .main-container {
     background-color: rgb(91, 214, 121);
 }
@@ -36,6 +39,17 @@
 .but2 {
     width: 50vw;
     height: 4.5vh;
+    background-color: rgb(236,152,185);
+}
+.MenuButton{
+    margin-bottom: 1%;
+    width: auto;
+    height: auto;
+    background-color: rgb(236,152,185);
+}
+.MenuButton2{
+    width: auto;
+    height: auto;
     background-color: rgb(236,152,185);
 }
 .cardTitle {
