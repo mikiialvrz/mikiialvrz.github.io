@@ -25,11 +25,6 @@
     text-size-adjust: auto;
     color: rgb(240, 120, 168);
 }
-.header{
-    background-color: #B7CBD0;
-    font-size: 2.3vw;
-    border-bottom: solid;
-}
 .top-container {
     background-image: linear-gradient(to bottom right, #CFF0CC, #CCCCFF);
     text-align: center;
@@ -59,6 +54,14 @@
 .cardTitle {
     color: rgb(236,152,185);
     font-size: x-large;
+}
+.aboutMeCardMargins {
+    margin-top: 7%;
+    margin-bottom: 3%;
+    width: 75vw;
+    background-color: rgb(219, 210, 199);
+    border-width: 3px;
+    border-color: rgb(102, 102, 102);
 }
 .content {
     margin-bottom: 3%;
